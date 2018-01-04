@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Logo, Titles & Line -->
+    <div class="container">
+        <header class="row">
+            <div class="col-md-6">
+                <img src="image/logo.png" class="title-logo" alt="Logo image">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="text-thin">Gerald Goh</h1>
+                <h3>Front-end Genin</h3>
+            </div>
+            <div>
+                <div class="col-md-12">
+                    <hr class="hr">
+                </div>
+            </div>
+        </header>
+    <!-- Main image -->
+        <div class="row">
+            <div class="col-md-12">
+                <img src="image/main.png" class="img-responsive" alt="Main image">
+            </div>
+        </div>
+    <!-- Subtitle -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+    <!-- 1st Content -->
+        <main class="row text-center">
+            <article class="col-md-4">
+                <img src="image/appify.png" data-toggle="modal" data-target="#project1" class="img-responsive" alt="Appify image">
+                <h2>APPIFY</h2>
+                <p><a href="https://github.com/udacity/appify/">Link to Appify Project</a></p>
+            </article>
+    <!-- 2nd Content -->
+            <article class="col-md-4">
+                <img src="image/sunflower.png" data-toggle="modal" data-target="#project2" class="img-responsive" alt="Sunflower">
+                <h2>SUNFLOWER</h2>
+                <p><a href="https://github.com/udacity/sunflower/">Link to Sunflower Project</a></p>
+            </article>
+    <!-- 3rd Content -->
+            <article class="col-md-4">
+                <img src="image/bokeh.png" data-toggle="modal" data-target="#project3" class="img-responsive" alt="Bokeh">
+                <h2>BOKEH</h2>
+                <p><a href="https://github.com/udacity/bokeh/">Link to Bokeh Project</a></p>
+            </article>
+        </main>
+    </div>
+    <!-- 1st Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel1">Favorite Appify Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="image/appify.png" alt="Appify image">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Favorite Sunflower Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="image/sunflower.png" alt="Sunflower image">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 3rd Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Favorite Bokeh Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="image/bokeh.png" alt="Bokeh Image">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-md-12">
+                2017 Udacity Fullstack Nanodegree Project 2
+            </div>
+        </div>
+    </footer>
+</body>
+    <!-- end -->
+</html>
